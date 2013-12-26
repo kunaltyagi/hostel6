@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=Autorun
+Exec=/bin/bash -c "(ps -u $USER -ocomm=|grep autorun ) || if test -f /var/lock/console/\"$USER\" -a -x /usr/bin/autorun; then /usr/bin/autorun -l --interval=1000 --cdplayer=/usr/bin/kscd & fi"
+Icon=cdrom_unmount.png
+Type=Application
