@@ -1,5 +1,6 @@
 <?php
-	include	'header.php'
+	include	'header.php';
+	menu('home');
 ?>
 			<!-- MAIN -->
 			<div id="main" class="cf">
