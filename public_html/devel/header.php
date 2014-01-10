@@ -54,7 +54,7 @@ echo '
 			    if($active=='gallery')
 			        echo '
 					class="current-menu-item"';
-				echo'><a href="#">GALLERY</a></li>
+				echo'><a href="gallery.php">GALLERY</a></li>
 					<li';
 			    if($active=='activities')
 			        echo '
