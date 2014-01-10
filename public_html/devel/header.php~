@@ -73,7 +73,7 @@ echo '
 				echo'><a href="#">FACILITIES</a>
 						<ul>
 							<li><a href="comp.php">Comp</a></li>
-							<li><a href="#">Mess</a></li>
+							<li><a href="mess.php">Mess</a></li>
 							<li><a href="maint.php">Maint</a></li>
 						</ul>
 					</li>

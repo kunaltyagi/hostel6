@@ -81,12 +81,12 @@ echo '
 			    if($active=='alumni')
 			        echo '
 					class="current-menu-item"';
-				echo'><a href="#">ALUMNI</a></li>
+				echo'><a href="alumni.php">ALUMNI</a></li>
 					<li';
 			    if($active=='council')
 			        echo '
 					class="current-menu-item"';
-				echo'><a href="#">COUNCIL</a></li>
+				echo'><a href="council.php">COUNCIL</a></li>
 					
 				</ul>
 			</nav>
