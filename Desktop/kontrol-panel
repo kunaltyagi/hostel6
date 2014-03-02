@@ -1,6 +1,0 @@
-[Desktop Entry]
-Name=KDE Control Panel
-Type=Application
-Description=launch configuration programs
-Icon=kontrol-panel.png
-Exec=/usr/bin/kontrol-panel
