@@ -6,9 +6,12 @@
 			<div id="main" class="cf">
 
 				<!-- SLIDER -->
-<!-- 				<iframe src="https://www.google.co.in/maps/@19.135238,72.907188,3a,75y,2.08h,92.03t/data=!3m5!1e1!3m3!1sY_ciETgOHhHhWKnmmCYUrA!2e0!3e5"
-				height="420px" width="940px" frameborder="0" >
-				</iframe> -->
+ <!-- <iframe width="1200" height="314" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+ src="https://www.google.com/maps?cbp=13,41.89,,0,-8.65&amp;layer=c&amp;panoid=ZR3QIaEPo3Ph38V-5Uv8Cg&amp;cbll=19.136053,72.911411&amp;ie=UTF8&amp;t=m&amp;source=embed&amp;ll=19.106973,72.911453&amp;spn=0.101864,0.411987&amp;z=12&amp;output=svembed">
+
+ </iframe>-->
+
+
 				<div class="slider-wrapper">
 		            <div id="slider" class="nivoSlider">
 		                <img src="img/dummies/slides/01.jpg" alt=""  />
@@ -34,36 +37,36 @@ Located on the other end of IIT Bombay surrounded by a green forest, Hostel 6 is
 				</div>
 				<ul class="feature cf">
 					<li>
-						<a href="project.html" class="thumb" >
+						<a href="mess.php" class="thumb" >
 							<img src="img/mess.jpg" alt="Thumbnail" />
 							<div class="img-overlay">VIEW MENU</div>
 						</a>
 						<a href="mess.php"  class="title">Mess Menu</a>
 						<div class="categories"><a href="#" >breakfast, </a><a href="#" >lunch, </a><a href="#" >tea, </a></a><a href="#" >dinner</a></div>
 						<div class="excerpt">Good food, new vendor blah blah blah</div>
-						<a href="mess_menu.php" class="action-button" >VIEW MENU</a>
+						<a href="mess.php" class="action-button" >VIEW MENU</a>
 					</li>
 
 					<li>
-						<a href="project.html" class="thumb" >
+						<a href="lancomplaint.php" class="thumb" >
 							<img src="img/lan.jpg" alt="Thumbnail" />
 							<div class="img-overlay">REGISTER COMPLAINT</div>
 						</a>
-						<a href="project.html"  class="title">LAN Vendor Visit</a>
+						<a href="lancomplaint.php"  class="title">LAN Vendor Visit</a>
 						<div class="categories"><a href="#" >comp, </a><a href="#" >lan port problem, </a><a href="#" >maint</a></div>
 						<div  class="excerpt">Something about lan vendor/problem, change to general portal link?</div>
 						<a href="lancomplaint.php" class="action-button" >REGISTER COMPLAINT</a>
 					</li>
 
 					<li>
-						<a href="project.html" class="thumb" >
+						<a href="cult_gc_table.php" class="thumb" >
 							<img src="img/gc.jpg" alt="Thumbnail" />
 							<div class="img-overlay">READ MORE</div>
 						</a>
-						<a href="project.html"  class="title">GC Tally</a>
+						<a href="cult_gc_table.php"  class="title">GC Tally</a>
 						<div class="categories"><a href="#" >cult, </a><a href="#" >sports, </a><a href="#" >tech</a></div>
 						<div  class="excerpt">Go Vikings!!</div>
-						<a href="project.html" class="action-button" >VIEW TALLY</a>
+						<a href="cult_gc_table.php" class="action-button" >VIEW TALLY</a>
 					</li>
 
 
