@@ -2,9 +2,12 @@
 	include	'header.php';
 	menu('gallery');
 ?>
+<br><br><br>
 <?php
     include '../new/gallery_new.php';
 ?>
+
+<br><br><br>
 <?php
 	include 'footer.php'
 ?>

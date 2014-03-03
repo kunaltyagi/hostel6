@@ -4,7 +4,7 @@
 
 					<div class="widget-block">
 						<h4>UPCOMING EVENTS</h4>
-						<p>- Hostel Fest</p>
+						<p>- HexFest</p>
 						<p>- PAF</p>
 		     		</div>
 				</li>

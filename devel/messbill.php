@@ -9,7 +9,7 @@
 
 
 					<!-- Featured -->
-						<div class="line-heading"><span>Mess Bill Details</span></div>
+		        		<h2 class="heading" align="center">Mess Bill Details</h2>
 
 					<div class="clear"></div>
 					<!-- ENDS Featured -->
@@ -19,9 +19,6 @@
 					<a href="downloads/sept.xlsx" style="text-decoration:none">Mess Bill: September 2013</a>
 					</div>
 <!-- ENDS page-content -->
-
-
-
 	        	<!-- ENDS Page wrap -->
 
 	        </div>

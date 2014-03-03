@@ -1,6 +1,3 @@
-<?php
-	include 'functions.php';
-?>
 			<!-- content wrap -->
 	        <div id="content-wrap">
 
@@ -283,6 +280,3 @@
 		<!-- ENDS Wrapper -->
 
 		<!-- FOOTER -->
-	<?php include 'footer.php'?>
-	</body>
-</html>

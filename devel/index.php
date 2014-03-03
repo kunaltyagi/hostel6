@@ -14,8 +14,8 @@
 
 				<div class="slider-wrapper">
 		            <div id="slider" class="nivoSlider">
-		                <img src="img/dummies/slides/01.jpg" alt=""  />
-		                <img src="img/dummies/slides/02.jpg" alt="" />
+		                <img src="img/dummies/slides/home_cult_pic01.jpg" alt=""  />
+		                <img src="img/dummies/slides/home_pic02.jpg" alt="" />
 		                <img src="img/dummies/slides/03.jpg" alt="" />
 		            </div>
 		        </div>
