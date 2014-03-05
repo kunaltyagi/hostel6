@@ -43,7 +43,7 @@ Located on the other end of IIT Bombay surrounded by a green forest, Hostel 6 is
 						</a>
 						<a href="mess.php"  class="title">Mess Menu</a>
 						<div class="categories"><a href="#" >breakfast, </a><a href="#" >lunch, </a><a href="#" >tea, </a></a><a href="#" >dinner</a></div>
-						<div class="excerpt">Good food, new vendor blah blah blah</div>
+						<div class="excerpt">SMS reminder facility now available</div>
 						<a href="mess.php" class="action-button" >VIEW MENU</a>
 					</li>
 
@@ -54,7 +54,7 @@ Located on the other end of IIT Bombay surrounded by a green forest, Hostel 6 is
 						</a>
 						<a href="lancomplaint.php"  class="title">LAN Vendor Visit</a>
 						<div class="categories"><a href="#" >comp, </a><a href="#" >lan port problem, </a><a href="#" >maint</a></div>
-						<div  class="excerpt">Something about lan vendor/problem, change to general portal link?</div>
+						<div  class="excerpt">Lan vendor visits: Every alternate Saturday</div>
 						<a href="lancomplaint.php" class="action-button" >REGISTER COMPLAINT</a>
 					</li>
 
@@ -97,7 +97,7 @@ Located on the other end of IIT Bombay surrounded by a green forest, Hostel 6 is
 						<iframe width="640" height="360" src="//www.youtube.com/embed/fBJzD5PZ3jk" frameborder="0" allowfullscreen></iframe>
 					</div>
 					<h3>Highlights of the year</h3>
-					<p>Contact Tanmay for some writeup</p>
+					<p>&nbsp;</p>
 				</div>
 				<!-- ENDS FEATURED VIDEO -->
 

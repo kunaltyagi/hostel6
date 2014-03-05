@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 function menu ($active){
 echo '
@@ -12,7 +12,7 @@ echo '
 		<title>Hostel 6 | IIT Bombay</title>
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width">
-		
+
 		<!-- CSS -->
 		<link href="http://fonts.googleapis.com/css?family=Arvo:400" rel="stylesheet" type="text/css">
 		<link href="http://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" type="text/css">
@@ -23,26 +23,26 @@ echo '
 		<script src="js/gallery.js" type="text/javascript"></script>
 	</head>
 	<body>
-	
-		
+
+
 		<!-- WRAPPER -->
 		<div class="wrapper">
-		
+
 			<!-- HEADER -->
 			<header class="cf">
 				<div id="logo"><a href="index.php"><img src="img/logo.png" alt="Hostel 6 | IIT Bombay" /></a></div>
-				
+
 				<!-- social-bar -->
 				<ul id="social-bar" class="cf">
-					
+
 					<li class="youtube"><a href="http://www.youtube.com/channel/UC_bnZdBhf_KCX3bQ_bK7BtQ"  title="YouTube" ></a></li>
 					<li class="facebook"><a href="http://www.facebook.com/groups/vikingshostel6/"  title="Facebook" ></a></li>
 					<li class="googleplus"><a href="https://plus.google.com/115505103954632822460/posts"  title="Google+" ></a></li>
 				</ul>
 				<!-- ENDS social-bar -->
-				
+
 			</header>
-			<!-- ENDS HEADER -->  
+			<!-- ENDS HEADER -->
        <!-- NAV -->
     		<nav class="cf">
 				<ul id="nav" class="sf-menu">
@@ -55,7 +55,7 @@ echo '
 			    if($active=='gallery')
 			        echo '
 					class="current-menu-item"';
-				echo'><a href="gallery.php">GALLERY</a></li>
+				echo'><a href="gallery_trial.php">GALLERY</a></li>
 					<li';
 			    if($active=='activities')
 			        echo '
@@ -88,10 +88,10 @@ echo '
 			        echo '
 					class="current-menu-item"';
 				echo'><a href="council.php">COUNCIL</a></li>
-					
+
 				</ul>
 			</nav>
       <!-- ENDS NAV -->';
 }
-			
+
 ?>
