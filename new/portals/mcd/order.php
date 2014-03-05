@@ -88,15 +88,18 @@ $d=$_POST['d'];
 $e=$_POST['e'];
 $f=$_POST['f'];
 $g=$_POST['g'];
+//$h=$_POST['h'];
+
 //$e=$_POST['e'];
 
-$a1=$a*62;
-$a2=$b*25;
-$a3=$c*35;
-$a4=$d*75;
-$a5=$e*25;
-$a6=$f*109;
-$a7=$g*109;
+$a1=$a*68;
+$a2=$b*26;
+$a3=$c*42;
+$a4=$d*84;
+$a5=$e*26;
+$a6=$f*119;
+$a7=$g*121;
+//$a8=$h*60;
 $a9=$a1+$a2+$a3+$a4+$a5+$a6+$a7;
 
 if($a9==0){
@@ -148,8 +151,8 @@ function are_int ( ) {
 							  }
 				 }
 
-$check=are_int($a1,$a2,$a3,$a4,$a5,$a6,$a7,$a9);
-$check1=p_int($a,$b,$c,$d,$e,$f,$g,$a9);
+$check=are_int($a1,$a2,$a3,$a4,$a5,$a6,$a7,$a8,$a9);
+$check1=p_int($a,$b,$c,$d,$e,$f,$g,$h,$a9);
 //echo $check1."<br/>";
 
 if($check1=="0"){

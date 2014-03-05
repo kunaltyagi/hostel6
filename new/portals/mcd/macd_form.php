@@ -23,11 +23,22 @@ $currentFile = $_SERVER["SCRIPT_NAME"];
 	$time= date("H:i:s");
 	//$day = date('w', $timestamp);
 	//echo $day."</br>" ;
-	if($day=="Tue" && $time>="11:00:00" && $time<="20:00:00"){
-		header("location:closed.php");
-		 
-			echo '<!--<meta http-equiv="refresh" content="0; url=closed.php"> -->';
-
+	if($day=="Wed"){
+			$time= date("H:i:s");
+			if ($time>="23:00:00" ){
+				//echo "yes"; ?>
+				<meta http-equiv="refresh" content="0; url=closed.php"> 
+		<?php
+				}
+			}
+		
+		if($day=="Sun"){
+			$time= date("H:i:s");
+			if ($time<"23:00:00" ){
+				?>
+				<meta http-equiv="refresh" content="0; url=closed.php"> 
+		<?php
+				}
 		}
 else {
 	
@@ -168,7 +179,7 @@ echo $user."<br/>".$roll;
  </tr>
  <tr>
 	 <td>McVeggie </td>
-     <td class="pr">Rs. 62</td>
+     <td class="pr">Rs. 68</td>
 	 <td><input type="text" class="target" maxlength="3" name="a" style="width: 35px; padding: 2px"
          $(".target").blur(function(event) {
         event.target.value = event.target.value.replace(/[^0-9]/g, "");
@@ -179,40 +190,40 @@ echo $user."<br/>".$roll;
  
   <tr>
   <td>McAloo tikki </td>
-  <td class="pr">Rs. 25</td>
+  <td class="pr">Rs. 26</td>
 	<td><input type="text" maxlength="3" name="b" style="width: 35px; padding: 2px" onBlur="if(this.value=='')this.value='0';" onFocus="if(this.value=='0')this.value='';" value="0"/></input></td>
   </tr>   
   <tr>
 	 <td>Chicken Mc grill </td>
-     <td class="pr">Rs. 35</td>
+     <td class="pr">Rs. 42</td>
 	 <td><input type="text" maxlength="3" name="c" style="width: 35px; padding: 2px" onBlur="if(this.value=='')this.value='0';" onFocus="if(this.value=='0')this.value='';" value="0"/></input></td>
   </tr>
    <tr>
        <td>McChicken </td>
-       <td class="pr">Rs. 75</td>
+       <td class="pr">Rs. 84</td>
         <td><input type="text" maxlength="3" name="d" style="width: 35px; padding: 2px" onBlur="if(this.value=='')this.value='0';" onFocus="if(this.value=='0')this.value='';" value="0"/></input></td>
    </tr>
    
    <tr>
        <td>Mc Egg </td>
-       <td class="pr">Rs. 25</td>
+       <td class="pr">Rs. 26</td>
         <td><input type="text" maxlength="3" name="e" style="width: 35px; padding: 2px" onBlur="if(this.value=='')this.value='0';" onFocus="if(this.value=='0')this.value='';" value="0"/></input></td>
    </tr>
    
    <tr>
        <td>Mc Spicy Paneer </td>
-       <td class="pr">Rs. 109</td>
+       <td class="pr">Rs. 119</td>
         <td><input type="text" maxlength="3" name="f" style="width: 35px; padding: 2px" onBlur="if(this.value=='')this.value='0';" onFocus="if(this.value=='0')this.value='';" value="0"/></input></td>
    </tr>
    
-   <!--<tr>
+  <!-- <tr>
        <td> French Fries Large</td>
        <td class="pr">Rs. 60</td>
-        <td><input type="text" maxlength="3" name="g" style="width: 35px; padding: 2px" onBlur="if(this.value=='')this.value='0';" onFocus="if(this.value=='0')this.value='';" value="0"/></input></td>
+        <td><input type="text" maxlength="3" name="h" style="width: 35px; padding: 2px" onBlur="if(this.value=='')this.value='0';" onFocus="if(this.value=='0')this.value='';" value="0"/></input></td>
    </tr>-->
    
    <td>Mc Spicy Chicken </td>
-       <td class="pr">Rs. 109</td>
+       <td class="pr">Rs. 121</td>
         <td><input type="text" maxlength="3" name="g" style="width: 35px; padding: 2px" onBlur="if(this.value=='')this.value='0';" onFocus="if(this.value=='0')this.value='';" value="0"/></input></td>
    </tr>
      <!--<tr>

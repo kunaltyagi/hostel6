@@ -86,6 +86,7 @@ $DB='hostel7'; */
         <th scope="col" id="...">McEgg &nbsp;&nbsp; </th>
         <th scope="col" id="...">McPaneer &nbsp;&nbsp; </th>
         <th scope="col" id="...">Mc Spicy Chicken &nbsp;&nbsp; </th>
+ 
 		<th scope="col" id="...">&nbsp;&nbsp;&nbsp;&nbsp; Signature &nbsp;&nbsp; </th>
 		</tr>  
         
@@ -119,6 +120,7 @@ for($i=0;$i<$count;$i++){
 	$Spicy = mysql_result($orders,$i,mysql_field_name($orders,10));
 	$roll= mysql_result($orders,$i,mysql_field_name($orders,6));
 	$name= mysql_result($orders,$i,mysql_field_name($orders,7));
+	//$fries= mysql_result($orders,$i,mysql_field_name($orders,11));
 ?>	
      
   <tr>

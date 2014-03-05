@@ -42,19 +42,20 @@ or die("Couldn't connect to SQL Server on $Server :".mysql_error());
 
 $db=mysql_select_db($DB,$con)
 or die("Couldn't connect to $DB at $Server"); 
-$sql="SELECT * from burger WHERE id='$usid' order by dytm desc";
+$sql="SELECT * from burger WHERE id='$usid'";
 $result=mysql_query($sql,$con);
 $count=mysql_num_rows($result);
 $rows=mysql_fetch_row($result);
 //echo mysql_result($result,0,mysql_field_name($result,1))."</br>";
-$a1=mysql_result($result,0,mysql_field_name($result,1))*62;
-$a2=mysql_result($result,0,mysql_field_name($result,2))*25;
-$a3=mysql_result($result,0,mysql_field_name($result,3))*35;
-$a4=mysql_result($result,0,mysql_field_name($result,4))*75;
-$a5=mysql_result($result,0,mysql_field_name($result,8))*25;
-$a6=mysql_result($result,0,mysql_field_name($result,9))*109;
-$a7=mysql_result($result,0,mysql_field_name($result,11))*109;
-$a8=$a1+$a2+$a3+$a4+$a5+$a6+$a7;
+$a1=mysql_result($result,0,mysql_field_name($result,1))*68;
+$a2=mysql_result($result,0,mysql_field_name($result,2))*26;
+$a3=mysql_result($result,0,mysql_field_name($result,3))*42;
+$a4=mysql_result($result,0,mysql_field_name($result,4))*84;
+$a5=mysql_result($result,0,mysql_field_name($result,8))*26;
+$a6=mysql_result($result,0,mysql_field_name($result,9))*119;
+$a7=mysql_result($result,0,mysql_field_name($result,10))*121;
+//$a8=mysql_result($result,0,mysql_field_name($result,11))*60;
+$a9=$a1+$a2+$a3+$a4+$a5+$a6+$a7;
 
 echo "McVeggie total: Rs.".$a1."<br/>";
 echo "McAloo tikki total: Rs.".$a2."<br/>";
@@ -63,8 +64,9 @@ echo "McChicken  total: Rs.".$a4."<br/><br/>";
 echo "Mc Egg  total: Rs.".$a5."<br/><br/>";
 echo "Mc Spicy Paneer  total: Rs.".$a6."<br/><br/>"; 
 echo "Mc Spicy Chicken  total: Rs.".$a7."<br/><br/>";
-echo '<p class="pr">'."Your Total Amount is: Rs.".$a8.'</p>'."<br/>"; 
-echo "Thanks for using H6 McDonalds facility.<br/>Your Order has been recorded and it will be delivered on this Tuesday at 8.00 P.M in the Mess.</br>";
+//echo "French Fries  total: Rs.".$a8."<br/><br/>";
+echo '<p class="pr">'."Your Total Amount is: Rs.".$a9.'</p>'."<br/>"; 
+echo "Thanks for using H6 McDonalds facility.<br/>Your Order has been recorded and it will be delivered on this Friday at 8.00 P.M in the Mess.</br>";
 echo "Your Amount will be deduted by H6 Mess Account.<br/>";
 
 }

@@ -42,16 +42,16 @@ $DB='hostel7'; */
 		//echo $day."</br>" ;
 		if($day=="Wed"){
 			$time= date("H:i:s");
-			if ($time>="20:00:00" ){
+			if ($time>="23:00:00" ){
 				//echo "yes"; ?>
 				<meta http-equiv="refresh" content="0; url=closed.php"> 
 		<?php
 				}
 			}
 		
-		if($day=="Thu"){
+		if($day=="Sun"){
 			$time= date("H:i:s");
-			if ($time<"20:00:00" ){
+			if ($time<"23:00:00" ){
 				?>
 				<meta http-equiv="refresh" content="0; url=closed.php"> 
 		<?php
@@ -60,15 +60,15 @@ $DB='hostel7'; */
 		
 		//echo strtotime('Monday this week')."</br>";
 		
-		$s_date=date('Y-m-d h:i:s', strtotime('last Wednesday'));
-		$e_date=date('Y-m-d h:i:s', strtotime("+1 week", strtotime($s_date)));
+		$s_date=date('Y-m-d h:i:s', strtotime('last Thursday'));
+		$e_date=date('Y-m-d h:i:s', strtotime("+4 day", strtotime($s_date)));
 				
 		$start_date = new DateTime($s_date);
 		$start_date->setTime(20,0,0);
 		$end_date = new DateTime($e_date);
 		$end_date->setTime(20,0,0);
 		
-		echo "<p class=\"pr\" style=\"font-family:Arial; font-size:15px;\">This week order Started on : Wednesday, ".$start_date->format('d.m.Y , h:i A')."</br> Close date : ".$end_date->format('d.m.Y , h:i A')."</br></p>";
+		echo "<p class=\"pr\" style=\"font-family:Arial; font-size:15px;\">This week order Started on : Monday, ".$start_date->format('d.m.Y , h:i A')."</br> Close date : ".$end_date->format('d.m.Y , h:i A')."</br></p>";
 		//echo "Close date=".$end_date->format('Y-m-d h:i:s')."</br>";
 
 $con = mysql_connect($Server, $User, $Pass)

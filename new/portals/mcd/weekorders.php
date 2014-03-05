@@ -86,6 +86,7 @@ for($i=0;$i<$count;$i++){
 	$tMcEgg += mysql_result($orders,$i,mysql_field_name($orders,8));
 	$tMcPaneer += mysql_result($orders,$i,mysql_field_name($orders,9));
 	$tMcChick += mysql_result($orders,$i,mysql_field_name($orders,10));
+	//$tfries += mysql_result($orders,$i,mysql_field_name($orders,11));
 	
 	}
 
@@ -102,6 +103,7 @@ for($i=0;$i<$count;$i++){
         <th scope="col" id="...">Total McEgg &nbsp;&nbsp; </th>
         <th scope="col" id="...">Total Mc Spicy Paneer &nbsp;&nbsp; </th>
         <th scope="col" id="...">Total Mc Spicy Chicken &nbsp;&nbsp; </th>
+        
 		<th scope="col" id="...">Total Amount</th><br>
 		</tr>  
 </thead>  
@@ -114,7 +116,7 @@ for($i=0;$i<$count;$i++){
 		<td><?php echo $tMcChicken; ?></td>
         <td><?php echo $tMcEgg; ?></td>
         <td><?php echo $tMcPaneer; ?></td>
-        <td><?php echo $tMcChick; ?></td>     
+        <td><?php echo $tMcChick; ?></td>          
 		<td class="pr"><?php echo "Rs. ".$TotalAmount; ?></td>                
 	</tr>  
    

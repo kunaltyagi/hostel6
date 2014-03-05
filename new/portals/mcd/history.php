@@ -58,12 +58,12 @@ $DB='hostel6';
 		//echo strtotime('Monday this week')."</br>";
 		
 		$s_date=date('Y-m-d h:i:s', strtotime('last Monday'));
-		$e_date=date('Y-m-d h:i:s', strtotime("+1 week", strtotime($s_date)));
+		$e_date=date('Y-m-d h:i:s', strtotime("+3 day", strtotime($s_date)));
 				
 		$start_date = new DateTime($s_date);
-		$start_date->setTime(20,0,0);
+		$start_date->setTime(23,0,0);
 		$end_date = new DateTime($e_date);
-		$end_date->setTime(20,0,0);
+		$end_date->setTime(23,0,0);
 		
 	$startdate =$start_date->format('d.m.Y , h:i A');
 $enddate= $end_date->format('d.m.Y , h:i A');
@@ -75,7 +75,7 @@ or die("Couldn't connect to SQL Server on $Server :".mysql_error());
 
 $db=mysql_select_db($DB,$con)
 or die("Couldn't connect to $DB at $Server"); 
-$sql="SELECT * from burger WHERE id='$uid' order by dytm desc";
+$sql="SELECT * from burger WHERE id='$uid'";
 $result=mysql_query($sql,$con);
 $count=mysql_num_rows($result);
 $rows=mysql_fetch_row($result);
@@ -151,6 +151,7 @@ else
         <th scope="col" id="...">McEgg &nbsp;&nbsp; </th>
         <th scope="col" id="...">McPaneer &nbsp;&nbsp; </th>
         <th scope="col" id="...">Mc Spicy Chicken &nbsp;&nbsp; </th>
+       
 		<th scope="col" id="...">Total Amount</th>
 		</tr>  
 </thead>  
@@ -172,6 +173,7 @@ else
 		<td><?php echo mysql_result($result,$i,mysql_field_name($result,8)); ?></td>
         <td><?php echo mysql_result($result,$i,mysql_field_name($result,9)); ?></td> 
         <td><?php echo mysql_result($result,$i,mysql_field_name($result,10)); ?></td>
+       
         <td><?php echo mysql_result($result,$i,mysql_field_name($result,5)); ?></td>                 
 	</tr>  
 	   
