@@ -32,10 +32,10 @@
 					<div class="widget-block">
 						<h4>STUDENT PORTALS</h4>
 						<ul>
-							<li class="cat-item"><a href="#" >LAN Complaint</a></li>
-							<li class="cat-item"><a href="#" >Mess Complaints</a></li>
+							<li class="cat-item"><a href="lancomplaint.php" >LAN Complaint</a></li>
+							<!--<li class="cat-item"><a href="" >Mess Complaints</a></li>-->
 							<!--<li class="cat-item"><a href="#" >Mess Bill Details</a></li>-->
-							<li class="cat-item"><a href="#" >McDonald's Order form</a></li>
+							<li class="cat-item"><a href="portals/mcd/" >McDonald's Order form</a></li>
 						</ul>
 					</div>
 

@@ -16,6 +16,7 @@
 		        		<p>Some useful links here</p>
 
 						<a href="https://www.facebook.com/groups/210134855708012/"><p class="infobox-info"> Visit our facebook page for latest updates</p></a>
+						<img src="img/messm.jpg" alt="mess menu">
                         <div class="line-heading">Mess Timings</div>
                         <!-- 4 cols -->
 						<div class="one-fourth">
@@ -58,9 +59,9 @@
 							monthly mess bill
 						</div></a>
 
-						<a href="#"><div class="one-fourth last">
+						<a href="portals/mcd/"><div class="one-fourth last">
 							<h4 >McDonald's Order form</h4>
-							coming soon
+							
 						</div></a>
 						<div class="cf"></div>
 						<!-- ENDS 4 cols -->

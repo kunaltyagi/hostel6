@@ -27,7 +27,7 @@
 						</div>
 						<div class="cf"></div>
 						<!-- ENDS 2 cols -->
-						
+						<iframe width='800' height='450' frameborder='0' src='https://docs.google.com/spreadsheet/pub?key=0Ajq6rNWI79y8dGEwM3d1YkNrNVc3QWJrMWQ4d2p1cGc&#038;single=true&#038;gid=0&#038;output=html&#038;widget=true'></iframe>
 											
 					</div>
 					<!-- ENDS entry-content -->

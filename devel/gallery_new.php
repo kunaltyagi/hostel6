@@ -3,9 +3,9 @@
 	menu('gallery');
 ?>
 		<!-- CSS -->
-		<link rel="stylesheet" href="gallery/style.css" type="text/css" media="screen" />
-		<link rel="stylesheet" href="gallery/tabs.css" type="text/css" media="screen" />
-		<link rel="stylesheet" href="gallery/social-icons.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="gallery/css/style.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="gallery/css/tabs.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="gallery/css/social-icons.css" type="text/css" media="screen" />
 		<!-- ENDS CSS -->
 
 		<!--[if IE]>
@@ -14,40 +14,40 @@
 		<!-- ENDS JS -->
 
 		<!-- JS -->
-		<script type="text/javascript" src="gallery/jquery.min.js"></script>
-		<script type="text/javascript" src="gallery/custom.js"></script>
-		<script type="text/javascript" src="gallery/slider.js"></script>
-		<script type="text/javascript" src="gallery/tabs_diff.js"></script>
-		<script src="gallery/slides/source/slides.min.jquery.js"></script>
-		<script src="gallery/quicksand.js"></script>
+		<script type="text/javascript" src="gallery/js/jquery.min.js"></script>
+		<script type="text/javascript" src="gallery/js/custom.js"></script>
+		<script type="text/javascript" src="gallery/js/slider.js"></script>
+		<script type="text/javascript" src="gallery/js/tabs_diff.js"></script>
+		<script src="gallery/js/slides/source/slides.min.jquery.js"></script>
+		<script src="gallery/js/quicksand.js"></script>
 
 		<!-- superfish -->
-		<link rel="stylesheet" media="screen" href="gallery/superfish.css" />
-		<script type="text/javascript" src="gallery/superfish-1.4.8/gallery/hoverIntent.js"></script>
-		<script type="text/javascript" src="gallery/superfish-1.4.8/gallery/superfish.js"></script>
-		<script type="text/javascript" src="gallery/superfish-1.4.8/gallery/supersubs.js"></script>
+		<link rel="stylesheet" media="screen" href="gallery/css/superfish.css" />
+		<script type="text/javascript" src="gallery/js/superfish-1.4.8/gallery/js/hoverIntent.js"></script>
+		<script type="text/javascript" src="gallery/js/superfish-1.4.8/gallery/js/superfish.js"></script>
+		<script type="text/javascript" src="gallery/js/superfish-1.4.8/gallery/js/supersubs.js"></script>
 		<!-- ENDS superfish -->
 
 		<!-- poshytip -->
-		<link rel="stylesheet" href="gallery/poshytip-1.0/src/tip-twitter/tip-twitter.css" type="text/css" />
-		<link rel="stylesheet" href="gallery/poshytip-1.0/src/tip-yellowsimple/tip-yellowsimple.css" type="text/css" />
-		<script type="text/javascript" src="gallery/poshytip-1.0/src/jquery.poshytip.min.js"></script>
+		<link rel="stylesheet" href="gallery/js/poshytip-1.0/src/tip-twitter/tip-twitter.css" type="text/css" />
+		<link rel="stylesheet" href="gallery/js/poshytip-1.0/src/tip-yellowsimple/tip-yellowsimple.css" type="text/css" />
+		<script type="text/javascript" src="gallery/js/poshytip-1.0/src/jquery.poshytip.min.js"></script>
 		<!-- ENDS poshytip -->
 
 		<!-- Tweet -->
-		<link rel="stylesheet" href="gallery/jquery.tweet.css" media="all"  type="text/css"/>
-		<script src="gallery/tweet/jquery.tweet.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="gallery/css/jquery.tweet.css" media="all"  type="text/css"/>
+		<script src="gallery/js/tweet/jquery.tweet.js" type="text/javascript"></script>
 		<!-- ENDS Tweet -->
 
 		<!-- prettyPhoto -->
-		<script type="text/javascript" src="gallery/prettyPhoto/gallery/jquery.prettyPhoto.js"></script>
-		<link rel="stylesheet" href="gallery/prettyPhoto/gallery/prettyPhoto.css" type="text/css" media="screen" />
+		<script type="text/javascript" src="gallery/js/prettyPhoto/gallery/js/jquery.prettyPhoto.js"></script>
+		<link rel="stylesheet" href="gallery/js/prettyPhoto/gallery/css/prettyPhoto.css" type="text/css" media="screen" />
 		<!-- ENDS prettyPhoto -->
 
 		<!-- GOOGLE FONTS -->
 		<link href="http://fonts.googleapis.com/css?family=Droid+Serif:400italic" rel="stylesheet" type="text/css">
-		<link rel="stylesheet" type="text/css" href="gallery/council.css" />
-		<script type="text/javascript" src="gallery/tabs.js"></script>
+		<link rel="stylesheet" type="text/css" href="gallery/css/council.css" />
+		<script type="text/javascript" src="gallery/js/tabs.js"></script>
 
 		<!-- ENDS background nav -->
 
