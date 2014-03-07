@@ -16,7 +16,6 @@
 		            <div id="slider" class="nivoSlider">
 		                <img src="img/dummies/slides/home_cult_pic01.jpg" alt=""  />
 		                <img src="img/dummies/slides/home_pic02.jpg" alt="" />
-		                <img src="img/dummies/slides/03.jpg" alt="" />
 		            </div>
 		        </div>
 				<!-- ENDS SLIDER -->
@@ -80,7 +79,12 @@ Located on the other end of IIT Bombay surrounded by a green forest, Hostel 6 is
 					</div>
 					<ul class="recent-posts">
 						<li>
-							<a href="single.tml" class="title">Film GC</a>
+							<a href="#" class="title">Rocket GC</a>
+							<span class="date">Feb 2, 2014</span>
+							<span class="author">- 1st Position</span>
+						</li>
+						<li>
+							<a href="#" class="title">Film GC</a>
 							<span class="date">Nov 7, 2013</span>
 							<span class="author">- 3rd Position</span>
 						</li>
