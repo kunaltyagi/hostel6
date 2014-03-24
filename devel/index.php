@@ -14,8 +14,8 @@
 
 				<div class="slider-wrapper">
 		            <div id="slider" class="nivoSlider">
-		                <img src="img/dummies/slides/home_cult_pic01.jpg" alt=""  />
-		                <img src="img/dummies/slides/home_pic02.jpg" alt="" />
+		                <img src="img/dummies/slides/lodbrock.jpg" alt=""  />
+		                <img src="img/dummies/slides/vcl.jpg" alt="" />
 		                <img src="img/dummies/slides/home_pic03.jpg" alt="" />
 		            </div>
 		        </div>
@@ -79,6 +79,11 @@ Located on the other end of IIT Bombay surrounded by a green forest, Hostel 6 is
 						RECENT ACTIVITIES <a href="#" >@Vikings</a>
 					</div>
 					<ul class="recent-posts">
+						<li>
+							<a href="#" class="title">Basketball GC</a>
+							<span class="date">Mar 21, 2014</span>
+							<span class="author">- 1st Position</span>
+						</li>
 						<li>
 							<a href="#" class="title">Rocket GC</a>
 							<span class="date">Feb 2, 2014</span>

@@ -4,8 +4,8 @@
 
 					<div class="widget-block">
 						<h4>UPCOMING EVENTS</h4>
-						<p>- HexFest</p>
-						<p>- PAF</p>
+                        <p>- PAF</p>
+                        <p>- GBM</p>
 		     		</div>
 				</li>
 
@@ -13,7 +13,7 @@
 
 					<div class="widget-block">
 						<h4>LATEST NEWS</h4>
-						<p>PAF prod work going on at Basky Court everyday from 9:30pm onwards</p>
+						<p>PAF of Hostel 6 on 26 March 2014</p>
 		     		</div>
 
 				</li>
