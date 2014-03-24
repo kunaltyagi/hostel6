@@ -13,7 +13,7 @@
 
 					<div class="widget-block">
 						<h4>LATEST NEWS</h4>
-						<p>PAF of Hostel 6 on 26 March 2014</p>
+						<p>PAF of H6 on 26 March 2014</p>
 		     		</div>
 
 				</li>
