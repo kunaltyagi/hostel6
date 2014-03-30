@@ -85,9 +85,29 @@ Located on the other end of IIT Bombay surrounded by a green forest, Hostel 6 is
 							<span class="author">- 3rd Position</span>
 						</li>
 						<li>
+							<a href="#" class="title">Hockey GC</a>
+							<span class="date">Mar 22, 2014</span>
+							<span class="author">- 2nd Position</span>
+						</li>
+						<li>
 							<a href="#" class="title">Basketball GC</a>
 							<span class="date">Mar 21, 2014</span>
-							<span class="author">- 1st Position</span>
+							<span class="author">- 3rd Position</span>
+						</li>
+						<li>
+							<a href="#" class="title">Photography GC</a>
+							<span class="date">Mar 12, 2014</span>
+							<span class="author">- 2nd &amp; 5th Position</span>
+						</li>
+						<li>
+							<a href="#" class="title">Tug-of-War GC</a>
+							<span class="date">Mar 01, 2014</span>
+							<span class="author">- 2nd Position</span>
+						</li>
+						<li>
+							<a href="#" class="title">Crossy GC</a>
+							<span class="date">Feb 27, 2014</span>
+							<span class="author">- 5th Position</span>
 						</li>
 						<li>
 							<a href="#" class="title">Rocket GC</a>
